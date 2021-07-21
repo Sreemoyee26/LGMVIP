@@ -18,6 +18,7 @@ html{
 }
 #navbar{
     transition: 0.5s;
+    background-color: darkblue;
 }
 h5{
     font-size: 1.8rem !important;
@@ -70,7 +71,7 @@ li{
     transition: .5s;
 }
 .nav-link:hover{
-    color: #fff200 !important;
+    color: aquamarine !important;
 }
 .carousel-indicators{
     position: absolute;
@@ -96,12 +97,8 @@ li{
     max-width: 60rem;
 }
 .carousel-caption button{
-    background: #82589F;
+    background: darkblue;
     color: #fff;
-}
-.second_row button{
-    background: #fed330;
-    color: #000;
 }
 .carousel-caption button, .second_row button{
     padding: 1rem 2rem;
@@ -113,12 +110,8 @@ li{
     transition: .5s;
 }
 .carousel-caption button:hover{
-    background: #fff200;
+    background: aquamarine;
     color: #000;
-}
-.second_row button:hover{
-    background: #82589F;
-    color: #fff;
 }
 .w-100{
     height: 75vh;
@@ -139,14 +132,14 @@ li{
 }
 .icon_spa i{
     font-size: 15rem !important;
-    color: #eded !important;
+    color: rgba(168, 205, 240, 0.867) !important;
 }
 .icon{
     text-align: center;
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
-    background: #82589F;
+    background: rgb(127, 140, 255);
     margin: 1rem 0;
 }
 .icon i{
@@ -154,15 +147,26 @@ li{
     line-height: 6rem;
     color: #fff;
 }
+.second_row button{
+    background: aquamarine;
+    color: #000;
+}
+.second_row button:hover{
+    background: darkblue;
+    color: #fff;
+}
 .second_row h5{
     font-size: 1.8rem !important;
-    color: #82589F;
+    color: darkblue;
     margin: 2rem 0;
     font-weight: 600;
 }
 .second_row p{
     font-size: 1.6rem;
-    color: #b2bec3;
+    color: #a0b8c2;
+}
+#services{
+    margin-top: -10vh;
 }
 .p_container{
     cursor: pointer;
@@ -176,41 +180,49 @@ li{
     background-position: center !important;
 }
 .p_description{
-    height: 22rem !important; 
+    height: 26rem !important; 
     padding: 2rem 2.5rem ;
     background: #ededed;
     transition: 0.5s;
 }
 .p_container:hover .p_description{
-    background: #fed330;
+    background: aquamarine;
 }
 .p_container:hover button{
-    background: #82589F;
+    background: darkblue;
     color: #fff;
 }
-
-.pricing_container button{
+#combos{
+    margin-top: -10vh;
+}
+.combo_container button{
     padding: 0.2rem 3rem !important;
-    background: #fed330;
+    background:aquamarine;
     color: #000;
     font-weight: 600;
     transition: 0.5s;
     font-size: 1.3rem !important;
 }
-.pricing_container button:hover
+.combo_container button:hover
 {
-    background: #82589F;
+    background: darkblue;
     color: #fff;
 }
-.pricing_container:nth-child(2){
+.combo_container:nth-child(2){
     border-left: 0.2rem solid #b2bec3;
     border-right: 0.2rem solid #b2bec3;
+}
+#price{
+    color:red;
+    font-size: 1.6rem;
 }
 
 #video_projects .carousel{
     height: 30rem;
 }
-
+#team{
+    margin-top: -8vh;
+}
 /* .card_container{
     position: relative;
     cursor: pointer;
@@ -231,7 +243,7 @@ li{
     width: 15rem;
     height:15rem;
     border-radius: 50%;
-    background: rgba(130, 88,159,0.8);
+    background: rgba(0, 0, 139, 0.575);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -244,7 +256,6 @@ li{
     font-size: 2rem;
 
 }
-
 .card_container:hover .social_icons{
     opacity: 1;
 }
