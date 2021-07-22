@@ -216,9 +216,12 @@ li{
     color:red;
     font-size: 1.6rem;
 }
-
 #video_projects .carousel{
     height: 30rem;
+}
+.video .caption p{
+    color:darkblue;
+    font-size: 2rem;
 }
 #team{
     margin-top: -8vh;
@@ -266,7 +269,7 @@ li{
 }
 #LIZ .owl_carousel{
     height: 10rem !important;
-    max-width: 90rem !important;
+    max-width: 80rem !important;
     margin: auto;
 }
 #LIZ .image img{
@@ -275,7 +278,16 @@ li{
     object-fit: cover;
     cursor: pointer;
 }
-
+.prev,.next{
+    font-size: 5rem;
+    color:darkblue;
+    position:relative;
+    top:6vh;
+}
+#lifepics{
+    display:flex;
+    margin-left: -2vw;
+}
 #newsletter {
     background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(images/newsletter_bg.jpg);
     height: 30rem;
