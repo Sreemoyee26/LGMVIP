@@ -226,11 +226,6 @@ li{
 #team{
     margin-top: -8vh;
 }
-/* .card_container{
-    position: relative;
-    cursor: pointer;
-    margin-bottom: 1rem;
-} */
 .card_container .image{
     height: 15rem;
     width: 15rem;
@@ -246,7 +241,7 @@ li{
     width: 15rem;
     height:15rem;
     border-radius: 50%;
-    background: rgba(0, 0, 139, 0.575);
+    background: rgba(127, 255, 212, 0.486);
     display: flex;
     justify-content: space-around;
     align-items: center;
