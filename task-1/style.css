@@ -259,9 +259,8 @@ li{
 .card_container:hover .social_icons{
     opacity: 1;
 }
-
 #LIZ img{
-    width: 90rem !important;
+    width: 60rem !important;
     height: 35rem !important;
     object-fit: cover;
 }
@@ -270,7 +269,6 @@ li{
     max-width: 90rem !important;
     margin: auto;
 }
-
 #LIZ .image img{
     height: 10rem !important;
     width: 10rem !important;
@@ -279,7 +277,7 @@ li{
 }
 
 #newsletter {
-    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../images/newsletter_bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(images/newsletter_bg.jpg);
     height: 30rem;
     background-size: cover;
     background-position: center;
@@ -298,7 +296,7 @@ li{
     outline: none;
     padding: 0 1rem;
     font-size: 1.6rem;
-    color: #82589F;
+    color: darkblue;
 }
 #newsletter .input_signup button{
     height: 4rem;
@@ -306,46 +304,49 @@ li{
     margin-left: 0.8rem;
     color: #000;
     font-weight: 600;
-    background: #fed330;
+    background: aquamarine;
     padding: 1rem 0.8rem;
 }
 #newsletter .input_signup button:hover {
-    background: #82589F;
+    background: darkblue;
     color: #fff;
+}
+#blog{
+    margin-top: -2vh;
 }
 #blog img{
     height: 15rem;
     width: 20rem;
 }
 #blog button{
-    background: #b2bec3;
+    background: aquamarine;
     font-weight: 600;
 }
 #blog button:hover{
-    background: #fed330;
+    background: darkblue;
+    color:white;
 }
-
+#contact{
+    margin-top: -3vh;
+}
 .mapouter {
     position: relative;
     text-align: right;
     width: 100%;
     height: 65rem;
 }
-
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
     width: 100%;
     height: 65rem;
 }
-
 .gmap_iframe {
     height:65rem !important;
 }
 #contact .contact_form{
-    background: #fed330;
+    background: aquamarine;
 }
-
 #contact form label{
     font-size: 1.6rem;
     font-weight: 600;
@@ -357,12 +358,18 @@ li{
   outline: none;
 }
 #contact form button{
-    background: #82589F;
+    background: darkblue;
     color: #fff;
     font-weight: 600;
 }
-
-
+#contact form button:hover{
+    background: white;
+    color: darkblue;
+}
+#smedia i{
+    font-size: 2rem;
+    margin:0.5rem;
+}
 /* Responsive code */
 @media(max-width:1206px)
 {
