@@ -1,0 +1,87 @@
+
+button{
+  border-radius: 5px;
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    #c78c1e 0%,
+     #ee8711 51%,
+     #c78c1e 100%
+    );
+  color: rgb(46, 21, 7);
+  padding: 12px;
+}
+button:hover{
+  transition: 200ms;
+ scale:1.5;
+ background-image: linear-gradient(
+    to right,
+    #b1d432 0%,
+     #15c2b3 51%,
+     #b1d432 100%
+    );
+
+}
+nav{
+  color: rgb(226, 226, 236);
+  background-attachment: fixed;
+  background-color: rgb(150, 25, 25);
+}
+
+
+
+.avatar{
+  border-radius: 50%;
+}
+#main{
+  padding: 25px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display:none;
+}
+.profile {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  background-image: linear-gradient(
+    to right,
+    #5a1a0a 0%,
+     #ee8711 51%,
+     #5a1a0a 100%
+    );
+  max-width: 300px;
+  margin: 12px auto;
+  text-align: center;
+  font-family: arial;
+  padding: 25px;
+  border-radius: 9px;
+}
+.profile:hover{
+  transition:400ms;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  background-image: linear-gradient(
+    to right,
+    #ee8711 0%,
+     #5a1a0a 51%,
+     #ee8711 100%
+    );
+}
+.email {
+  color: rgb(124, 226, 230);
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+
+.email:hover {
+  color: aliceblue;
+}
+
+.name{
+  font-size:20px;
+  font-weight: bold;
+  color: aliceblue;
+
+}
+.loader{
+  margin-left: auto;
+  margin-right: auto;
+}
